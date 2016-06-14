@@ -1,0 +1,94 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin: 0;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+    font-size: 1.9em;
+    margin-bottom: 30px;
+}
+
+/*Navbar*/
+
+.navbar-brand {
+    height: auto;
+}
+.navbar {
+    border-radius: 0;
+    background-color: lightgray;
+    border-bottom: 1px solid darkgray;
+}
+.navbar-header {
+    border-bottom: 1px solid darkgray;
+}
+#food-selection-button, #food-selection-button:hover, #food-selection-button:focus {
+    padding: 18px 20px;
+    border: 2px solid darkgray;
+    background-color: white;
+}
+
+#food-menu {
+    font-size: 1.5em;
+    margin: 0 -15px;
+}
+
+#food-menu li {
+    border-bottom: 1px solid darkgray;
+    padding: 10px;
+    background-color: #eee;
+}
+#food-menu li:last-child {
+    border: 0;
+}
+#food-menu li:hover {
+    background-color: #fff;
+    color: darkgray;
+    font-weight: bold;
+}
+
+
+/*Sections*/
+
+section {
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+section > h3 {
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+#chicken-section > h3 {
+    background-color: pink;
+}
+#beef-section > h3 {
+    background-color: darkred;
+    color: white;
+}
+#sushi-section > h3 {
+    background-color: lightyellow;
+}
+section > p {
+    clear: right;
+    padding: 10px;
+    margin: 0;
+}
+.back-link, .back-link:visited, .back-link:hover  {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+.back-to-top {
+    padding: 10px;
+    background-color: #eee;
+    border-top: 1px solid darkgray;
+}
+
